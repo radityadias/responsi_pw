@@ -4,8 +4,10 @@
       <div class="image-container">
         <img src="../assets/profile.png" alt="About" class="img-fluid">
       </div>
-      <div class="text-wrapper">
-        <p>QWERTYUI</p>
+      <div class="text-wrapper border" >
+        <p>Hi There!, I'm</p>
+        <h2>Muhammad Raditya </h2>
+        <p>Full Stack Programmer</p>
       </div>
     </div>
   </section>
@@ -29,6 +31,7 @@ export default {
   align-items: center; /* Center vertically */
   justify-content: space-between; /* Space between elements */
   position: relative;
+  margin-bottom: 20px;
 }
 
 .image-container{
@@ -36,12 +39,13 @@ export default {
 
 img
 {
-  width: 50%;
+  width: 70%;
   border-radius: 50px
 }
 
 .text-wrapper
 {
-  margin-right: 10rem;
+  margin-right: 8rem;
+  width: 40rem;
 }
 </style>
