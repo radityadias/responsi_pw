@@ -1,7 +1,13 @@
 <template>
-  <section class="about">
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <section class="About">
+    <div class="container">
+      <div class="image-container">
+        <img src="../assets/profile.png" alt="About" class="img-fluid">
+      </div>
+      <div class="text-wrapper">
+        <p>QWERTYUI</p>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -14,5 +20,28 @@ export default {
 <style scoped>
 .about {
   padding: 50px 0;
+}
+
+.container
+{
+  margin-top: 20px;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between elements */
+  position: relative;
+}
+
+.image-container{
+}
+
+img
+{
+  width: 50%;
+  border-radius: 50px
+}
+
+.text-wrapper
+{
+  margin-right: 10rem;
 }
 </style>
