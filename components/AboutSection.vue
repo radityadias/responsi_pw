@@ -4,7 +4,7 @@
       <div class="image-container">
         <img src="../assets/profile.png" alt="About" class="img-fluid">
       </div>
-      <div class="text-wrapper border" >
+      <div class="text-wrapper" >
         <p>Hi There!, I'm</p>
         <h2>Muhammad Raditya </h2>
         <p>Full Stack Programmer</p>
